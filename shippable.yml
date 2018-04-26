@@ -1,0 +1,12 @@
+jobs:
+ - name: u14scala-test
+   type: runSh
+   steps:
+     - TASK:
+         runtime:
+           options:
+             imageName: "drydock/u14scaall"
+             imageTag: master
+         script:
+           - /usr/local/scala-2.12.5/bin/scala -version
+           - /usr/local/scala-2.11.12/bin/scala -version
