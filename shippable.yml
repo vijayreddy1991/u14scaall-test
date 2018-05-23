@@ -8,5 +8,5 @@ jobs:
              imageName: "drydock/u14scaall"
              imageTag: master
          script:
-           - /usr/local/scala-2.12.5/bin/scala -version
+           - /usr/local/scala-2.12.6/bin/scala -version
            - /usr/local/scala-2.11.12/bin/scala -version
