@@ -2,6 +2,7 @@ jobs:
  - name: u14scala-test
    type: runSh
    steps:
+    - IN: u14all-testing
      - TASK:
          runtime:
            options:
